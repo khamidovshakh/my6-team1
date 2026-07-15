@@ -1,15 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/menu.css">
-    <title>Document</title>
+    <title>Bella Vita Restaurant</title>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-    
-    
 
-    <script src="./js/menu.js"></script>
+    <header class="header">
+        <nav class="navbar container">
+            <a href="index.html" class="logo">Bella<span>Vita</span></a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="menu.html">Меню</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+
+            <button class="burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content container">
+            <h1>Bella Vita Restaurant</h1>
+            <p>Почувствуйте вкус в каждом блюде</p>
+            <a href="menu.html" class="btn">Смотреть меню</a>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="container footer-content">
+            <div>
+                <h3>Bella<span>Vita</span></h3>
+                <p>Вкусные блюда, уютная атмосфера.</p>
+            </div>
+            <div>
+                <h4>Контакты</h4>
+                <p>Тел: +998 90 123 45 67</p>
+                <p>Адрес: г. Ташкент, ул. Амира Темура</p>
+            </div>
+            <div>
+                <h4>Часы работы</h4>
+                <p>Ежедневно: 09:00 - 23:00</p>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 Bella Vita Restaurant. Все права защищены.</p>
+    </footer>
+
+    <script src="./js/index.js"></script>
 </body>
 </html>
