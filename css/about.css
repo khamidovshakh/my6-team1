@@ -3,3 +3,50 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Основной контейнер */
+.about {
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Заголовок */
+.about__title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #2c3e50;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Текст */
+.about__text {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #555;
+    text-align: justify; /* Равнение по ширине для аккуратного вида */
+}
+
+/* Дополнительный акцент: отступ для последнего абзаца */
+.about__text:last-of-type {
+    margin-bottom: 0;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 600px) {
+    .about__title {
+        font-size: 2rem;
+    }
+    .about__text {
+        font-size: 1rem;
+        text-align: left;
+    }
+}
